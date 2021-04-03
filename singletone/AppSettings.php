@@ -5,10 +5,11 @@ class AppSettings
     private static ?self $instance = null;
     private static array $config;
 
-    public function __construct(){
+    private function __construct(){
         self::$config = parse_ini_file(__DIR__.'/config.ini', true);
     }
 
+    // To prevent clone
     private function __clone(){}
 
     public static function getInstance(): self
@@ -28,13 +29,14 @@ class AppSettings
 
 // 1- $db=  new AppSettings(); => error because construct is error
 $database= AppSettings::getInstance();
-$database2= AppSettings::getInstance();
 //var_dump($database::getConfig('Database'));
 //var_dump($database::getConfig('Database')['portNumber']);
 //var_dump($database::getConfig('Cache'));
-
-var_dump($database, $database2);
+//$database2= AppSettings::getInstance();
+//var_dump($database, $database2);
 // the same instance
+
+
 
 
 // self refer to current class and  PHP self refers to the class members, but not for any particular object.
