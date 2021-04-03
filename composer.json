@@ -1,0 +1,11 @@
+{
+    "name": "fatma/design_pattern",
+    "description": "learn design pattern",
+    "authors": [
+        {
+            "name": "fatma123",
+            "email": "fabdelrahman72@yahoo.com"
+        }
+    ],
+    "require": {}
+}

@@ -46,7 +46,7 @@
       <updated>1617052202955</updated>
       <workItem from="1617052206186" duration="1078000" />
       <workItem from="1617277150184" duration="609000" />
-      <workItem from="1617468241341" duration="6764000" />
+      <workItem from="1617468241341" duration="8500000" />
     </task>
     <servers />
   </component>
@@ -54,13 +54,17 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="518" y="101" width="391" height="600" key="NewPhpClassDialog" timestamp="1617474309824">
+    <state x="527" y="116" width="406" height="576" key="#com.intellij.ide.util.MemberChooser" timestamp="1617486199511">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state x="518" y="101" width="391" height="600" key="NewPhpClassDialog/72.27.1294.741@72.27.1294.741" timestamp="1617474309824" />
-    <state x="514" y="319" width="399" height="164" key="NewPhpFileDialog" timestamp="1617052225031">
+    <state x="527" y="116" width="406" height="576" key="#com.intellij.ide.util.MemberChooser/72.27.1294.741@72.27.1294.741" timestamp="1617486199511" />
+    <state x="518" y="101" width="527" height="600" key="NewPhpClassDialog" timestamp="1617486295841">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state x="514" y="319" width="399" height="164" key="NewPhpFileDialog/72.27.1294.741@72.27.1294.741" timestamp="1617052225031" />
+    <state x="518" y="101" width="527" height="600" key="NewPhpClassDialog/72.27.1294.741@72.27.1294.741" timestamp="1617486295841" />
+    <state x="514" y="319" width="399" height="164" key="NewPhpFileDialog" timestamp="1617485977905">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="514" y="319" width="399" height="164" key="NewPhpFileDialog/72.27.1294.741@72.27.1294.741" timestamp="1617485977905" />
   </component>
 </project>
