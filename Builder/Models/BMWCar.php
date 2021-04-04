@@ -1,9 +1,5 @@
 <?php
-
-
 namespace Builder\Models;
-
-
 class BMWCar extends  Car
 {
 

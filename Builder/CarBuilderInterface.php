@@ -2,8 +2,6 @@
 
 
 namespace Builder;
-
-
 use Builder\Models\Car;
 
 Interface CarBuilderInterface

@@ -1,9 +1,5 @@
 <?php
-
-
 namespace Builder\Models;
-
-
 class BENZCar  extends  Car
 {
     private  $data =[];

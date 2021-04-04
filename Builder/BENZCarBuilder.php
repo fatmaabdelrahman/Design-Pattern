@@ -2,15 +2,10 @@
 
 
 namespace Builder;
-
 use Builder\Models\Car;
 use Builder\Models\BENZCar;
-
-
-
 class BENZCarBuilder implements CarBuilderInterface
 {
-
     /**
      * @var Car $type
      */

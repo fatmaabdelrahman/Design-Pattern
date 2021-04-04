@@ -29,7 +29,7 @@ class AppSettings
 
 // 1- $db=  new AppSettings(); => error because construct is error
 $database= AppSettings::getInstance();
-//var_dump($database::getConfig('Database'));
+var_dump($database::getConfig('Database'));
 //var_dump($database::getConfig('Database')['portNumber']);
 //var_dump($database::getConfig('Cache'));
 //$database2= AppSettings::getInstance();

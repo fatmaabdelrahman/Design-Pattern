@@ -1,9 +1,5 @@
 <?php
-
-
 namespace Builder;
-
-
 use Builder\Models\Car;
 
 class CarProducer
@@ -11,19 +7,20 @@ class CarProducer
     /**
      * @var CarBuilderInterface
      */
-    private  $Builder;
+    private $Builder;
 
     public function __construct(CarBuilderInterface $builder)
     {
-        $this->Builder =$builder;
+        $this->Builder = $builder;
     }
 
-    public  function  ProduceCar(): Car {
-         $this->Builder->createCar();
-         $this->Builder->addBody();
-         $this->Builder->addDoors();
-         $this->Builder->addEngine();
-    return  $this->Builder->getCar();
+    public function ProduceCar(): Car
+    {
+        $this->Builder->createCar();
+        $this->Builder->addBody();
+        $this->Builder->addDoors();
+        $this->Builder->addEngine();
+        return $this->Builder->getCar();
     }
 
 }
